@@ -1,0 +1,5 @@
+<ul>
+  <% @artists.each do |artist| %>
+    <li><%= artist.name %>-<%= artist.votes.count %></li>
+  <% end %>
+</ul>
